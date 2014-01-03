@@ -25,7 +25,7 @@ def processInput(input):
         reader.ls()
 
 def clearConsole():
-    os.system(['clear','cls'][os.name == 'nt']) #Clear console. Should work on moast platforms
+    os.system(['clear','cls'][os.name == 'nt']) #Clear console. Should work on most platforms
 
 if __name__ == "__main__":
     try:
